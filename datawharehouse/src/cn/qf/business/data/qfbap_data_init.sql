@@ -402,7 +402,7 @@ BEGIN
 		END WHILE;
 		SET @mobile = rand_mobile();
 		SELECT @mobile;
-		SET @num_seg_mobile = SUBSTRING(@mobile,1,3);
+		SET @num_seg_mobile = SUBSTRING(@mobile，1,3);
 		SET @op_Mobile='中国';
 		SET @register_time= rand_date('2018-1-1');
 		SET @login_ip=rand_ip();
